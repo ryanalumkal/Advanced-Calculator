@@ -96,20 +96,20 @@ namespace MoreAdvancedCalculator {
 			// label1
 			// 
 			this->label1->BackColor = System::Drawing::Color::Transparent;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft New Tai Lue", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Arial", 72, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label1->ForeColor = System::Drawing::Color::OldLace;
-			this->label1->Location = System::Drawing::Point(35, 30);
+			this->label1->Location = System::Drawing::Point(12, 30);
 			this->label1->Name = L"label1";
 			this->label1->RightToLeft = System::Windows::Forms::RightToLeft::No;
-			this->label1->Size = System::Drawing::Size(500, 100);
+			this->label1->Size = System::Drawing::Size(502, 100);
 			this->label1->TabIndex = 0;
 			// 
 			// ButtonAC
 			// 
 			this->ButtonAC->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonAC->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->ButtonAC->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonAC->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonAC->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonAC->Location = System::Drawing::Point(12, 151);
@@ -124,7 +124,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonMathOps->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonMathOps->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->ButtonMathOps->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonMathOps->Font = (gcnew System::Drawing::Font(L"Arial", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonMathOps->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonMathOps->Location = System::Drawing::Point(143, 151);
@@ -139,8 +139,8 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonPercentage->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonPercentage->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->ButtonPercentage->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->ButtonPercentage->Font = (gcnew System::Drawing::Font(L"Arial", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->ButtonPercentage->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonPercentage->Location = System::Drawing::Point(277, 151);
 			this->ButtonPercentage->Name = L"ButtonPercentage";
@@ -154,7 +154,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonDivide->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonDivide->BackColor = System::Drawing::Color::Orange;
-			this->ButtonDivide->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonDivide->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonDivide->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonDivide->Location = System::Drawing::Point(406, 151);
@@ -169,7 +169,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_7->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_7->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_7->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_7->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_7->Location = System::Drawing::Point(12, 286);
@@ -184,7 +184,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonMultiply->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonMultiply->BackColor = System::Drawing::Color::Orange;
-			this->ButtonMultiply->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonMultiply->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonMultiply->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonMultiply->Location = System::Drawing::Point(406, 286);
@@ -199,7 +199,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonSubtract->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonSubtract->BackColor = System::Drawing::Color::Orange;
-			this->ButtonSubtract->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonSubtract->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonSubtract->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonSubtract->Location = System::Drawing::Point(406, 419);
@@ -214,7 +214,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonAdd->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonAdd->BackColor = System::Drawing::Color::Orange;
-			this->ButtonAdd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonAdd->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonAdd->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonAdd->Location = System::Drawing::Point(406, 556);
@@ -229,7 +229,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonEqual->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonEqual->BackColor = System::Drawing::Color::Orange;
-			this->ButtonEqual->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonEqual->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonEqual->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonEqual->Location = System::Drawing::Point(406, 690);
@@ -244,7 +244,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_8->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_8->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_8->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_8->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_8->Location = System::Drawing::Point(143, 286);
@@ -259,7 +259,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_9->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_9->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_9->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_9->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_9->Location = System::Drawing::Point(277, 286);
@@ -274,7 +274,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_4->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_4->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_4->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_4->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_4->Location = System::Drawing::Point(12, 419);
@@ -289,7 +289,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_5->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_5->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_5->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_5->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_5->Location = System::Drawing::Point(143, 419);
@@ -304,7 +304,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_6->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_6->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_6->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_6->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_6->Location = System::Drawing::Point(277, 419);
@@ -319,7 +319,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_1->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_1->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_1->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_1->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_1->Location = System::Drawing::Point(12, 556);
@@ -334,7 +334,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_2->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_2->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_2->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_2->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_2->Location = System::Drawing::Point(143, 556);
@@ -349,7 +349,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_3->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_3->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_3->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_3->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_3->Location = System::Drawing::Point(277, 556);
@@ -364,7 +364,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->Button_0->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->Button_0->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->Button_0->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Button_0->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Button_0->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->Button_0->Location = System::Drawing::Point(12, 690);
@@ -379,7 +379,7 @@ namespace MoreAdvancedCalculator {
 			// 
 			this->ButtonPeriod->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
 			this->ButtonPeriod->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->ButtonPeriod->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->ButtonPeriod->Font = (gcnew System::Drawing::Font(L"Arial", 21.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->ButtonPeriod->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
 			this->ButtonPeriod->Location = System::Drawing::Point(277, 690);
